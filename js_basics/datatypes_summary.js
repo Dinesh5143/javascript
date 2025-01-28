@@ -15,13 +15,15 @@ let functionName = function changeName(Name){
 }
 functionName(studentName);
 console.log(studentName);
-//call by value all primitve datatypes.
+//call by value all primitve datatypes.stored in stack memory
 
 let myObject1={name:"dinesh"};
 let myObject2 = myObject1;
 myObject2.name="ritesh"
 console.log(myObject1.name);
 //call by refernce all non primitive datatypes.
+// //stored in heap memory , myObject will get a refernce to the
+// address where object is stored
 
 let BigInt = 78378368778343767n;
 console.log(typeof BigInt);
